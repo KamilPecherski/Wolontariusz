@@ -41,9 +41,6 @@ label_Data_Birth.grid(row=6, column=0, padx=10, pady=5, sticky="w")
 entry_Data_Birth = tk.Entry(root, width=40)
 entry_Data_Birth.grid(row=6, column=1, padx=10, pady=5)
 
-
-
-
 # Przycisk zapisu
 button_save = tk.Button(root, text="Zapisz", command=lambda x:x)
 button_save.grid(row=7, column=0, columnspan=2, pady=10)
