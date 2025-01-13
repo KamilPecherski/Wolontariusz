@@ -21,6 +21,11 @@ label_mail.grid(row=2, column=0, padx=10, pady=5, sticky="w")
 entry_mail = tk.Entry(root, width=40)
 entry_mail.grid(row=2, column=1, padx=10, pady=5)
 
+label_PhoneNr = tk.Label(root, text="Numer telefonu:")
+label_PhoneNr.grid(row=3, column=0, padx=10, pady=5, sticky="w")
+entry_PhoneNr = tk.Entry(root, width=40)
+entry_PhoneNr.grid(row=3, column=1, padx=10, pady=5)
+
 # Dodanie kolejny Etykiet oraz pola tekstowego przez pozostałych członków grupy
 
 
