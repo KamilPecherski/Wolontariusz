@@ -41,6 +41,15 @@ label_Data_Birth.grid(row=6, column=0, padx=10, pady=5, sticky="w")
 entry_Data_Birth = tk.Entry(root, width=40)
 entry_Data_Birth.grid(row=6, column=1, padx=10, pady=5)
 
+label_Pesel = tk.Label(root, text="Pesel:")
+label_Pesel.grid(row=5, column=0, padx=10, pady=5, sticky="w")
+entry_Pesel = tk.Entry(root, width=40)
+entry_Pesel.grid(row=5, column=1, padx=10, pady=5)
+
+label_Wykształcenie = tk.Label(root, text="Wykształcenie:")
+label_Wykształcenie.grid(row=6, column=0, padx=10, pady=5, sticky="w")
+entry_Wykształcenie = tk.Entry(root, width=40)
+entry_Wykształcenie.grid(row=6, column=1, padx=10, pady=5)
 
 # Przycisk zapisu
 button_save = tk.Button(root, text="Zapisz", command=lambda x:x)
