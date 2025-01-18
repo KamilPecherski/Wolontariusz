@@ -51,6 +51,11 @@ label_Wykształcenie.grid(row=6, column=0, padx=10, pady=5, sticky="w")
 entry_Wykształcenie = tk.Entry(root, width=40)
 entry_Wykształcenie.grid(row=6, column=1, padx=10, pady=5)
 
+label_Jezyk = tk.Label(root, text="Język obcy:")
+label_Jezyk.grid(row=6, column=0, padx=10, pady=5, sticky="w")
+entry_Jezyk = tk.Entry(root, width=40)
+entry_Jezyk.grid(row=6, column=1, padx=10, pady=5)
+
 # Przycisk zapisu
 button_save = tk.Button(root, text="Zapisz", command=lambda x:x)
 button_save.grid(row=7, column=0, columnspan=2, pady=10)
